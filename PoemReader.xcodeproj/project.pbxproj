@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2446D31C5919E000230C63 /* PoemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2446D11C5919E000230C63 /* PoemViewController.m */; };
+		1E2446D41C5919E000230C63 /* PoemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E2446D21C5919E000230C63 /* PoemViewController.xib */; };
+		1E2446D71C591A8200230C63 /* PoemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2446D61C591A8200230C63 /* PoemObject.m */; };
+		1E2446D91C591C6500230C63 /* poems.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E2446D81C591C6500230C63 /* poems.txt */; };
+		1EAB91161C59401C00A523B8 /* PoemContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB91141C59401C00A523B8 /* PoemContentViewController.m */; };
+		1EAB91171C59401C00A523B8 /* PoemContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB91151C59401C00A523B8 /* PoemContentViewController.xib */; };
+		E1B3619C1F7536848351625C /* PoemReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3698DDDAEB5E944F76E03 /* PoemReaderUITests.m */; };
+		E1B364411E0A7827617BFF34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B36D69D9B6B563DE8AA3B1 /* main.m */; };
+		E1B366428CD59F2C3210864E /* PoemReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B36287695796EECEB98DAB /* PoemReaderTests.m */; };
+		E1B369C6499803171322A52B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B369571090FAF93AAF742F /* AppDelegate.m */; };
+		E1B36B1931BC9C47AFB4DA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B36005D0F85BAFB0B0B398 /* LaunchScreen.storyboard */; };
+		E1B36BC76435393AFE1ACFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B360D99C30D0EDC0D82F7C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1B364B36974959A882258E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B36B746A7F0548969A2D0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B360FF02292BA8BDB36E2B;
+			remoteInfo = PoemReader;
+		};
+		E1B36C3DA95111AF4D520A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B36B746A7F0548969A2D0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B360FF02292BA8BDB36E2B;
+			remoteInfo = PoemReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2446D01C5919E000230C63 /* PoemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemViewController.h; sourceTree = "<group>"; };
+		1E2446D11C5919E000230C63 /* PoemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoemViewController.m; sourceTree = "<group>"; };
+		1E2446D21C5919E000230C63 /* PoemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoemViewController.xib; sourceTree = "<group>"; };
+		1E2446D51C591A8200230C63 /* PoemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemObject.h; sourceTree = "<group>"; };
+		1E2446D61C591A8200230C63 /* PoemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoemObject.m; sourceTree = "<group>"; };
+		1E2446D81C591C6500230C63 /* poems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poems.txt; sourceTree = "<group>"; };
+		1EAB91131C59401C00A523B8 /* PoemContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoemContentViewController.h; sourceTree = "<group>"; };
+		1EAB91141C59401C00A523B8 /* PoemContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoemContentViewController.m; sourceTree = "<group>"; };
+		1EAB91151C59401C00A523B8 /* PoemContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoemContentViewController.xib; sourceTree = "<group>"; };
+		E1B360D99C30D0EDC0D82F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1B36287695796EECEB98DAB /* PoemReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoemReaderTests.m; sourceTree = "<group>"; };
+		E1B3632C68FA7932759C638E /* PoemReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoemReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B36405D630EAAD06BB200D /* PoemReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoemReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B364527E0FF66CAFD92C7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1B364ECEF29ADECDA6BEA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		E1B365A192EACD75435BEAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		E1B365AF5038304D89BF4515 /* PoemReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoemReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B3674410B60DF09ECE15F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1B36919A5653EF0D656BFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		E1B369571090FAF93AAF742F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1B3698DDDAEB5E944F76E03 /* PoemReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoemReaderUITests.m; sourceTree = "<group>"; };
+		E1B36D69D9B6B563DE8AA3B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B3625D60489733960A8840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B368EC199FAB3A85E3DDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B369B1D0F8FE39E2680CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1B36216F26DFED8F1CD880C /* PoemReader */ = {
+			isa = PBXGroup;
+			children = (
+				1E2446D81C591C6500230C63 /* poems.txt */,
+				E1B365A192EACD75435BEAF0 /* Info.plist */,
+				E1B360D99C30D0EDC0D82F7C /* Assets.xcassets */,
+				E1B36005D0F85BAFB0B0B398 /* LaunchScreen.storyboard */,
+				E1B36DD86E2F2ACAAF2BE968 /* Supporting Files */,
+				E1B364527E0FF66CAFD92C7B /* AppDelegate.h */,
+				E1B369571090FAF93AAF742F /* AppDelegate.m */,
+				1E2446D51C591A8200230C63 /* PoemObject.h */,
+				1E2446D61C591A8200230C63 /* PoemObject.m */,
+				1E2446D01C5919E000230C63 /* PoemViewController.h */,
+				1E2446D11C5919E000230C63 /* PoemViewController.m */,
+				1E2446D21C5919E000230C63 /* PoemViewController.xib */,
+				1EAB91131C59401C00A523B8 /* PoemContentViewController.h */,
+				1EAB91141C59401C00A523B8 /* PoemContentViewController.m */,
+				1EAB91151C59401C00A523B8 /* PoemContentViewController.xib */,
+			);
+			path = PoemReader;
+			sourceTree = "<group>";
+		};
+		E1B366644528347B8C0247DE /* PoemReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B36919A5653EF0D656BFF5 /* Info.plist */,
+				E1B3698DDDAEB5E944F76E03 /* PoemReaderUITests.m */,
+			);
+			path = PoemReaderUITests;
+			sourceTree = "<group>";
+		};
+		E1B36857B8E3FCF99CF9D4D2 /* PoemReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B364ECEF29ADECDA6BEA29 /* Info.plist */,
+				E1B36287695796EECEB98DAB /* PoemReaderTests.m */,
+			);
+			path = PoemReaderTests;
+			sourceTree = "<group>";
+		};
+		E1B36CFDC2368327D8A477A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B365AF5038304D89BF4515 /* PoemReader.app */,
+				E1B3632C68FA7932759C638E /* PoemReaderTests.xctest */,
+				E1B36405D630EAAD06BB200D /* PoemReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B36DD86E2F2ACAAF2BE968 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1B36D69D9B6B563DE8AA3B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1B36F6C576E462438EAD8EE = {
+			isa = PBXGroup;
+			children = (
+				E1B36CFDC2368327D8A477A5 /* Products */,
+				E1B36216F26DFED8F1CD880C /* PoemReader */,
+				E1B36857B8E3FCF99CF9D4D2 /* PoemReaderTests */,
+				E1B366644528347B8C0247DE /* PoemReaderUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1B360FF02292BA8BDB36E2B /* PoemReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B36076A79E03B3D3315A7D /* Build configuration list for PBXNativeTarget "PoemReader" */;
+			buildPhases = (
+				E1B3661EABB3DECBDFBA2A75 /* Sources */,
+				E1B3625D60489733960A8840 /* Frameworks */,
+				E1B36C2114A4CF6A5833D84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoemReader;
+			productName = PoemReader;
+			productReference = E1B365AF5038304D89BF4515 /* PoemReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1B362395F08C4E5B019B425 /* PoemReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B36B4ABAC365C800C6C2A9 /* Build configuration list for PBXNativeTarget "PoemReaderTests" */;
+			buildPhases = (
+				E1B36E389BA28316B5A8A8B4 /* Sources */,
+				E1B369B1D0F8FE39E2680CCE /* Frameworks */,
+				E1B3621D970DC62399A94278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B3613AAE39D16A498DBA0B /* PBXTargetDependency */,
+			);
+			name = PoemReaderTests;
+			productName = PoemReaderTests;
+			productReference = E1B3632C68FA7932759C638E /* PoemReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1B364FCBBD6B3CD5E1E737C /* PoemReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B361C4C6F77EA75B0F7F88 /* Build configuration list for PBXNativeTarget "PoemReaderUITests" */;
+			buildPhases = (
+				E1B36A8BAE0372543BEA9164 /* Sources */,
+				E1B368EC199FAB3A85E3DDBC /* Frameworks */,
+				E1B36C4D7C0F4A58678BD247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B367B277E7803F98C84BD5 /* PBXTargetDependency */,
+			);
+			name = PoemReaderUITests;
+			productName = PoemReaderUITests;
+			productReference = E1B36405D630EAAD06BB200D /* PoemReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B36B746A7F0548969A2D0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DuongNArtist;
+			};
+			buildConfigurationList = E1B36C2F2860084D4DD337F8 /* Build configuration list for PBXProject "PoemReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1B36F6C576E462438EAD8EE;
+			productRefGroup = E1B36CFDC2368327D8A477A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B360FF02292BA8BDB36E2B /* PoemReader */,
+				E1B362395F08C4E5B019B425 /* PoemReaderTests */,
+				E1B364FCBBD6B3CD5E1E737C /* PoemReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1B3621D970DC62399A94278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B36C2114A4CF6A5833D84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B36BC76435393AFE1ACFBF /* Assets.xcassets in Resources */,
+				1EAB91171C59401C00A523B8 /* PoemContentViewController.xib in Resources */,
+				1E2446D41C5919E000230C63 /* PoemViewController.xib in Resources */,
+				E1B36B1931BC9C47AFB4DA99 /* LaunchScreen.storyboard in Resources */,
+				1E2446D91C591C6500230C63 /* poems.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B36C4D7C0F4A58678BD247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B3661EABB3DECBDFBA2A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAB91161C59401C00A523B8 /* PoemContentViewController.m in Sources */,
+				E1B364411E0A7827617BFF34 /* main.m in Sources */,
+				E1B369C6499803171322A52B /* AppDelegate.m in Sources */,
+				1E2446D31C5919E000230C63 /* PoemViewController.m in Sources */,
+				1E2446D71C591A8200230C63 /* PoemObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B36A8BAE0372543BEA9164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B3619C1F7536848351625C /* PoemReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B36E389BA28316B5A8A8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B366428CD59F2C3210864E /* PoemReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1B3613AAE39D16A498DBA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B360FF02292BA8BDB36E2B /* PoemReader */;
+			targetProxy = E1B36C3DA95111AF4D520A60 /* PBXContainerItemProxy */;
+		};
+		E1B367B277E7803F98C84BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B360FF02292BA8BDB36E2B /* PoemReader */;
+			targetProxy = E1B364B36974959A882258E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1B36005D0F85BAFB0B0B398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1B3674410B60DF09ECE15F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1B36081FA0C56780A5FAB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoemReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duongnartist.PoemReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1B3619EA99AD3D81EC7093D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoemReader.app/PoemReader";
+				INFOPLIST_FILE = PoemReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duongnartist.PoemReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		E1B362EEE399F2559B96F809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoemReader.app/PoemReader";
+				INFOPLIST_FILE = PoemReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duongnartist.PoemReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		E1B3649EEE44CDE2E32DC25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoemReader.app/PoemReader";
+				INFOPLIST_FILE = PoemReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duongnartist.PoemReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		E1B3662867B0A24053EB8801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1B36A30CB885B168FA5B4A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PoemReader.app/PoemReader";
+				INFOPLIST_FILE = PoemReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duongnartist.PoemReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		E1B36D20C800DBE488E64DE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1B36FD41B2D337F714EDF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoemReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duongnartist.PoemReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1B36076A79E03B3D3315A7D /* Build configuration list for PBXNativeTarget "PoemReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B36081FA0C56780A5FAB72 /* Debug */,
+				E1B36FD41B2D337F714EDF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B361C4C6F77EA75B0F7F88 /* Build configuration list for PBXNativeTarget "PoemReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B36A30CB885B168FA5B4A5 /* Debug */,
+				E1B3649EEE44CDE2E32DC25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B36B4ABAC365C800C6C2A9 /* Build configuration list for PBXNativeTarget "PoemReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B3619EA99AD3D81EC7093D /* Debug */,
+				E1B362EEE399F2559B96F809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B36C2F2860084D4DD337F8 /* Build configuration list for PBXProject "PoemReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B3662867B0A24053EB8801 /* Debug */,
+				E1B36D20C800DBE488E64DE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B36B746A7F0548969A2D0F /* Project object */;
+}
